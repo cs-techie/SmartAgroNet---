@@ -1,0 +1,9 @@
+{
+    "builds": [
+      { "src": "CROP-RECOMMENDATION/app.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "CROP-RECOMMENDATION/app.py" }
+    ]
+}
+  
